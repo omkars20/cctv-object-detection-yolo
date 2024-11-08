@@ -1,0 +1,42 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment directories
+env/
+venv/
+
+# Ignore YOLOv5 training and detection results
+runs/
+*.pt
+*.onnx
+*.tflite
+*.pb
+*.zip
+
+# Ignore dataset and large media files
+cctv_dataset/train/
+cctv_dataset/valid/
+cctv_dataset/test/
+cctv_dataset/*.yaml
+
+# Ignore log and output files
+*.log
+*.out
+*.txt
+*.csv
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+# virtual venv or env
+venv/
+venv
+
